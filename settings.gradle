@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        maven { url "https://jitpack.io" }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Speech Transcribe"
+include ':app'
